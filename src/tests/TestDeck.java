@@ -48,8 +48,4 @@ public class TestDeck {
         assertFalse(deck.getDeck().contains(c));
     }
 
-    @Test
-    public void canPlay(){
-
-    }
 }

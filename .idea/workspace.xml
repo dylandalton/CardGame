@@ -67,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574939924767</updated>
-      <workItem from="1574939928007" duration="2030000" />
+      <workItem from="1574939928007" duration="2570000" />
     </task>
     <task id="LOCAL-00001" summary="Added test classes">
       <created>1574940997949</created>
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574942358248</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added tests to TestDeck">
+      <created>1574942454497</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574942454497</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added test classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test classes" />
+    <MESSAGE value="Added tests to TestDeck" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests to TestDeck" />
   </component>
 </project>
