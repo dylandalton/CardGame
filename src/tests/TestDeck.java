@@ -27,19 +27,25 @@ public class TestDeck {
         deck.createDeck();
         deck.shuffle();
         Card c = deck.deal();
-
-
-
+        assertFalse(deck.getDeck().contains(c));
     }
 
     @Test
     public void DealNum(){
-
+        Deck deck = new Deck();
+        deck.createDeck();
+        deck.shuffle();
+        Card[] c = deck.dealNum(4);
+        assertFalse(deck.getDeck().contains(c));
     }
 
     @Test
     public void DealAll(){
-
+        Deck deck = new Deck();
+        deck.createDeck();
+        deck.shuffle();
+        Card[] c = deck.dealAll(4);
+        assertFalse(deck.getDeck().contains(c));
     }
 
     @Test
