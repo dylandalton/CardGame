@@ -13,6 +13,7 @@ public class TestDeck {
         Deck deck1 = new Deck();
         deck1.createDeck();
         Deck deck2 = deck1;
+        deck2.shuffle();
         assertNotEquals("Shuffled deck shouldnt equal deck", deck1.getDeck(),deck2.getDeck());
     }
     @Test
@@ -35,7 +36,7 @@ public class TestDeck {
         Deck deck = new Deck();
         deck.createDeck();
         deck.shuffle();
-        Card[] c = deck.dealNum(4);
+        Card[] c = deck.dealNum(2);
         assertFalse(deck.getDeck().contains(c));
     }
 
@@ -44,7 +45,7 @@ public class TestDeck {
         Deck deck = new Deck();
         deck.createDeck();
         deck.shuffle();
-        Card[] c = deck.dealAll(4);
+        Card[] c = deck.dealAll();
         assertFalse(deck.getDeck().contains(c));
     }
 

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1959432-ef8d-4fc4-9d6b-1354543592e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tests/TestBlackjack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/TestDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TestDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/TestPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TestPlayer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestDeck">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.trebletreble.Main" />
       <module name="CardGame" />
@@ -57,6 +60,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestDeck" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestDeck" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -69,6 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574939924767</updated>
       <workItem from="1574939928007" duration="3704000" />
+      <workItem from="1575037932814" duration="1812000" />
     </task>
     <task id="LOCAL-00001" summary="Added test classes">
       <created>1574940997949</created>
@@ -105,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574949945265</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DeskDeck completed">
+      <created>1575038114224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575038114224</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +147,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -125,6 +158,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added test classes" />
     <MESSAGE value="Added tests to TestDeck" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tests to TestDeck" />
+    <MESSAGE value="DeskDeck completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="DeskDeck completed" />
   </component>
 </project>
