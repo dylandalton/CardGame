@@ -13,13 +13,13 @@ public class Player {
 
     }
 
-    public String hit(){
+   // public String hit(){
         
-        cardDealt = Deck.deal();
-        hand.add(cardDealt);
+   //     cardDealt = Deck.deal();
+   //     hand.add(cardDealt);
 
-        return hand;
-    }
+      //  return hand;
+    //}
 
 
 

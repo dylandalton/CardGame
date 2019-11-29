@@ -2,9 +2,9 @@ package tests;
 
 import org.junit.jupiter.api.Test;
 
-@Test
+
 public class TestPlayer {
-    @Test
+ /*   @Test
     public void TestBet(){
         Player player = new Player();
         int balance = player.getBalance();
@@ -25,5 +25,5 @@ public class TestPlayer {
         player.sortHand();
         assertTrue(player.getHand().equals(oldHand));
 
-    }
+    }*/
 }

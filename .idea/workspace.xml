@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1959432-ef8d-4fc4-9d6b-1354543592e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/trebletreble/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/trebletreble/Value.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/trebletreble/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/trebletreble/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/trebletreble/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/trebletreble/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/trebletreble/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/trebletreble/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/TestDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TestDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/TestPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TestPlayer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,9 +76,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDeck.testShuffle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestDeck" />
+      <option name="METHOD_NAME" value="testShuffle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestDeck" />
+        <item itemvalue="JUnit.TestDeck.testShuffle" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574939924767</updated>
       <workItem from="1574939928007" duration="3704000" />
-      <workItem from="1575037932814" duration="4062000" />
+      <workItem from="1575037932814" duration="4441000" />
     </task>
     <task id="LOCAL-00001" summary="Added test classes">
       <created>1574940997949</created>
@@ -160,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575041458924</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added card enum">
+      <created>1575042310339</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575042310339</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +208,7 @@
     <MESSAGE value="Player test is completed" />
     <MESSAGE value="Added card class" />
     <MESSAGE value="Finished deck class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished deck class" />
+    <MESSAGE value="Added card enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added card enum" />
   </component>
 </project>
