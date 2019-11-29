@@ -13,7 +13,7 @@ public class TestDeck {
         Deck deck1 = new Deck();
         deck1.createDeck();
         Deck deck2 = deck1;
-        assertNotEquals("Shuffled deck shouldnt equal deck", deck1.getDeck(),deck2.getDeck());
+        assertNotEquals("Shuffled deck shouldn't equal deck", deck1.getDeck(),deck2.getDeck());
     }
     @Test
     public void testCreateDeck(){
