@@ -2,18 +2,28 @@ package tests;
 
 import org.junit.jupiter.api.Test;
 
+@Test
 public class TestPlayer {
-
     @Test
-    public void testHit(){
-        int handCount = player1.getHandCount();
-        Player player1 = new Player();
-        player1.hit();
-        assertTrue(handCount > 2);
+    public void TestBet(){
+        Player player = new Player();
+        int balance = player.getBalance();
+        player.bet(10);
+        assertFalse(player.getBet.equalsbalance);
     }
 
     @Test
-    public void testSortHand(){
+    public void sortHand(){
+        Player player = new Player();
+        Deck deck = new Deck();
+
+        deck.generateDeck();
+
+        player.hit(deck);
+        player.hit(deck);
+        Card[] oldHand = player.getHand();
+        player.sortHand();
+        assertTrue(player.getHand().equals(oldHand));
 
     }
 }
