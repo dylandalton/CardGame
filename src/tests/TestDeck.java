@@ -1,5 +1,6 @@
 package tests;
 
+import com.trebletreble.Deck;
 import org.junit.jupiter.api.Test;
 
 import javax.smartcardio.Card;
@@ -10,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestDeck {
     @Test
     public void testShuffle(){
-        Deck deck1 = new Deck();
+        Deck.getInstance()
         deck1.createDeck();
         Deck deck2 = deck1;
         assertNotEquals("Shuffled deck shouldn't equal deck", deck1.getDeck(),deck2.getDeck());

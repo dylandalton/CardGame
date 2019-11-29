@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1959432-ef8d-4fc4-9d6b-1354543592e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/trebletreble/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/trebletreble/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/trebletreble/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/TestDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TestDeck.java" afterDir="false" />
@@ -92,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574939924767</updated>
       <workItem from="1574939928007" duration="3704000" />
-      <workItem from="1575037932814" duration="2403000" />
+      <workItem from="1575037932814" duration="3145000" />
     </task>
     <task id="LOCAL-00001" summary="Added test classes">
       <created>1574940997949</created>
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575040032249</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added card class">
+      <created>1575040620222</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575040620222</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +173,7 @@
     <MESSAGE value="Added tests to TestDeck" />
     <MESSAGE value="DeskDeck completed" />
     <MESSAGE value="Player test is completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Player test is completed" />
+    <MESSAGE value="Added card class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added card class" />
   </component>
 </project>
