@@ -1,26 +1,26 @@
 package com.trebletreble;
 
 public class Card {
-    String suit;
-    String value;
-    public Card(String s, String v){
+    Suit suit;
+    Value value;
+    public Card(Suit s, Value v){
         this.suit=s;
         this.value=v;
     }
 
-    public String getSuit() {
+    public Suit getSuit() {
         return suit;
     }
 
-    public void setSuit(String suit) {
+    public void setSuit(Suit suit) {
         this.suit = suit;
     }
 
-    public String getValue() {
+    public Value getValue() {
         return value;
     }
 
-    public void setValue(String value) {
+    public void setValue(Value value) {
         this.value = value;
     }
 }

@@ -29,8 +29,17 @@ public class Deck {
         }
         return tempList;
     }
-    public void createDeck(){
 
+    public ArrayList<Card> getDeck() {
+        return deck;
+    }
+
+    public void createDeck(){
+        for(Suit s : Suit.values()){
+            for(Value v : Value.values()){
+                deck.add(new Card(s,v));
+            }
+        }
     }
 
     public static Deck getInstance(){
