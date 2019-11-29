@@ -22,6 +22,10 @@ public class TestDeck {
     }
 
     @Test
+    public void testCardGeneration(){
+        
+    }
+    @Test
     public void Deal(){
         Deck deck = new Deck();
         deck.createDeck();
