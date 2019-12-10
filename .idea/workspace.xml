@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1959432-ef8d-4fc4-9d6b-1354543592e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/trebletreble/Dealer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/trebletreble/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/trebletreble/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/trebletreble/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/trebletreble/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/trebletreble/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/trebletreble/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/trebletreble/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/trebletreble/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/trebletreble/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/trebletreble/Value.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,6 +40,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDeck">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.trebletreble.Main" />
       <module name="CardGame" />
@@ -93,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestDeck" />
         <item itemvalue="JUnit.TestDeck.testShuffle" />
       </list>
@@ -111,7 +120,7 @@
       <workItem from="1574939928007" duration="3704000" />
       <workItem from="1575037932814" duration="4628000" />
       <workItem from="1575900104441" duration="1579000" />
-      <workItem from="1575972190508" duration="541000" />
+      <workItem from="1575972190508" duration="4287000" />
     </task>
     <task id="LOCAL-00001" summary="Added test classes">
       <created>1574940997949</created>
@@ -190,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575042690731</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Deck passes tests">
+      <created>1575972924988</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575972924988</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,5 +235,21 @@
     <MESSAGE value="Added card enum" />
     <MESSAGE value="Deck passes tests" />
     <option name="LAST_COMMIT_MESSAGE" value="Deck passes tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/trebletreble/Player.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/trebletreble/Main.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

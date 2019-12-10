@@ -18,7 +18,7 @@ public enum Value {
 
     private int value;
     private Value(int v){
-        this.value=value;
+        this.value=v;
     }
     public int getValue(){
         return this.value;
