@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e1959432-ef8d-4fc4-9d6b-1354543592e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/trebletreble/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/trebletreble/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/trebletreble/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/trebletreble/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/TestDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TestDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/TestPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TestPlayer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +109,9 @@
       <option name="presentableId" value="Default" />
       <updated>1574939924767</updated>
       <workItem from="1574939928007" duration="3704000" />
-      <workItem from="1575037932814" duration="4441000" />
+      <workItem from="1575037932814" duration="4628000" />
+      <workItem from="1575900104441" duration="1579000" />
+      <workItem from="1575972190508" duration="541000" />
     </task>
     <task id="LOCAL-00001" summary="Added test classes">
       <created>1574940997949</created>
@@ -182,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575042310339</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Deck passes tests">
+      <created>1575042690731</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575042690731</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +217,7 @@
     <MESSAGE value="Added card class" />
     <MESSAGE value="Finished deck class" />
     <MESSAGE value="Added card enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added card enum" />
+    <MESSAGE value="Deck passes tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deck passes tests" />
   </component>
 </project>
