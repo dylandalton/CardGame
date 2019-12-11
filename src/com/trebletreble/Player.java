@@ -7,7 +7,11 @@ public class Player {
     String Name;
     int score;
     int balance;
+
+
     boolean bust;
+    boolean hasStuck;
+
     ArrayList<Card> hand;
 
     public Player(String Name, int balance){
@@ -16,6 +20,7 @@ public class Player {
         this.balance=balance;
         hand = new ArrayList<>(0);
         bust=false;
+        hasStuck=false;
     }
 
     public boolean isBust() {
@@ -72,4 +77,12 @@ public class Player {
     public String getName() {
         return Name;
     }
+    public boolean isHasStuck() {
+        return hasStuck;
+    }
+
+    public void setHasStuck(boolean hasStuck) {
+        this.hasStuck = hasStuck;
+    }
+
 }
