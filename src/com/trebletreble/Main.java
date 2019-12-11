@@ -84,7 +84,7 @@ public class Main {
                 players[0].addCard(Deck.getInstance().deal());
                // System.out.println(players[0].getHandString());
             }
-            System.out.println(ANSI_PURPLE + players[0].getHandString() + ANSI_RESET);
+            System.out.println(ANSI_PURPLE + players[0].getHandString() + " - " + players[0].getValue() + ANSI_RESET);
             for(int i =1;i<players.length;i++){
                 if(!players[i].isBust()) {
                     if (players[i].getValue() > players[0].getValue()) {
